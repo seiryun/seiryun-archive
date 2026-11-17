@@ -1,0 +1,1 @@
+document.querySelectorAll('a[href]').forEach(a=>{if(a.hostname && a.hostname!==location.hostname)a.target='_blank';});
